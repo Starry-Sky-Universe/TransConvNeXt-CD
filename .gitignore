@@ -23,9 +23,8 @@ env/
 */.ipynb_checkpoints/*
 
 # PyTorch
-*.pth
-*.pt
-*.pth.tar
+checkpoints/
+weights/
 lightning_logs/
 
 # Data
@@ -43,7 +42,3 @@ Thumbs.db
 # Logs
 logs/
 *.log
-
-# Checkpoints
-checkpoints/
-weights/
