@@ -13,15 +13,15 @@
 
 ---
 
-### 🔥 State-of-the-Art Change Detection on LEVIR-CD | F1: **90.85%** | IoU: **83.24%**
+### 🔥 Transformer-CNN Hybrid for Change Detection on LEVIR-CD | F1: **90.85%** | IoU: **83.24%**
 
 <br>
 
-| 🏆 **Leaderboard** | 📊 **Test Metrics** | ⚡ **Features** |
-|:---:|:---:|:---:|
-| **#1 F1 Score** on LEVIR-CD | **90.85%** F1 / **83.24%** IoU | ConvNeXt + Cross-Attention |
-| 📦 **Weight Available** | **91.89%** Precision / **89.84%** Recall | 8x TTA / Mixed Precision |
-| 🐍 **Easy to Use** | ⏱ **150 Epochs** ~ 6h on P100 | Kaggle-Ready Notebooks |
+| 📊 **Test Metrics** | ⚡ **Features** |
+|:---:|:---:|
+| **90.85%** F1 / **83.24%** IoU | ConvNeXt + Cross-Attention |
+| **91.89%** Precision / **89.84%** Recall | 8x TTA / Mixed Precision |
+| ⏱ **150 Epochs** ~ 6h on P100 | Kaggle-Ready Notebooks |
 
 <br>
 
@@ -30,7 +30,7 @@
   <a href="#-architecture">🏗️ Architecture</a> •
   <a href="#-quick-start">🚀 Quick Start</a> •
   <a href="#-reproduce">🎯 Reproduce</a> •
-  <a href="#-comparison-with-sota">🏆 SOTA Comparison</a> •
+  <a href="#-benchmark-comparison">📊 Benchmark Comparison</a> •
   <a href="#-faq">❓ FAQ</a>
 </p>
 
@@ -44,7 +44,7 @@
 
 ## ✨ Why TransConvNeXt-CD?
 
-> **TransConvNeXt-CD** is a Transformer-CNN hybrid architecture for remote sensing **change detection**. It achieves **90.85% F1** and **83.24% IoU** on the LEVIR-CD benchmark — significantly outperforming previous methods.
+> **TransConvNeXt-CD** is a Transformer-CNN hybrid architecture for remote sensing **change detection**. It achieves **90.85% F1** and **83.24% IoU** on the LEVIR-CD benchmark.
 
 <div align="center">
 
@@ -61,9 +61,9 @@
 
 ---
 
-## 🏆 SOTA Comparison
+## 📊 Benchmark Comparison
 
-Our model achieves **state-of-the-art** performance on the LEVIR-CD benchmark:
+Performance comparison on the LEVIR-CD test set:
 
 | Method | Year | Backbone | F1 | IoU | Precision | Recall |
 |:------|:----:|:--------:|:--:|:---:|:---------:|:------:|
@@ -74,7 +74,7 @@ Our model achieves **state-of-the-art** performance on the LEVIR-CD benchmark:
 | BIT | 2022 | ResNet + Transformer | 89.31 | 80.68 | 89.32 | 89.30 |
 | **TransConvNeXt-CD (Ours)** | **2026** | **ConvNeXt + CrossAttn** | **90.85** | **83.24** | **91.89** | **89.84** |
 
-> Our model achieves **+1.54% F1** and **+2.56% IoU** over previous best method (BIT).
+> Our model achieves **+1.54% F1** and **+2.56% IoU** over BIT on this benchmark. Note: comparisons are limited to methods we could reproduce; newer methods may achieve different results.
 
 ---
 
